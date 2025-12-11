@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient(135deg, #dbeafe, #ede9fe); */
+  background: linear-gradient(to right, #555d6a, #0f172a); 
+ 
+}
+
+
+.create-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+   background: #ffffff;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.create-container h2 {
+  margin-bottom: 20px;
+  color: #1e1b4b;
+  font-size: 24px;
+}
+
+
+.create-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.create-container input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 4px rgba(99, 102, 241, 0.3);
+}
+
+
+.create-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-container button:hover {
+  background-color: #4f46e5;
+}
+
+/* Success & error messages */
+.success {
+  color: #065f46;
+  background: #dcfce7;
+  border: 1px solid #86efac;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.error {
+  color: #7f1d1d;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}

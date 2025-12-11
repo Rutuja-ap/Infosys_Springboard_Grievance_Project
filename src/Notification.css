@@ -1,0 +1,60 @@
+/* Notification Page Layout */
+.notif-page {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.notif-section {
+  margin-bottom: 30px;
+}
+
+.notif-section h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+.notif-card {
+  background: #f5f7ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.notif-card.new {
+  border-left: 4px solid #ff9800;
+}
+
+.notif-card.reviewed {
+  border-left: 4px solid #4caf50;
+  opacity: 0.7;
+}
+
+.notif-card button {
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.notif-card button:hover {
+  background: #005ecb;
+}
+
+.empty {
+  color: gray;
+  font-size: 14px;
+}
